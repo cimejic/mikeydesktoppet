@@ -19,6 +19,6 @@ If you are using a compiler, execute the code from there. If you are using a bas
 
 Mikey should appear on your screen! 
 
-If he does not appear, he may be off screen. Try changing this section of the .py file: [window.geometry('150x150+'+str(x)+'+0')] The 0 affects Mikey's Y postion. Change the X position further up in the code where it says [x = 100]. 
+If he does not appear, he may be off screen. Try changing this section of the .py file: [x = 100] & [y = 0] The X value changes his horizontal position, and the Y value will change the vertical position. 
 
 Close the terminal to remove Mikey from your screen. 
