@@ -13,7 +13,7 @@ Download the zip file and extract the files from it OR download all of the gifs 
 
 Type "python" in your terminal to install python from the Microsoft store. In your terminal, then type "pip install pyautogui" to install one of the needed libraries for the deskpet. Find information on pyautogui here: https://pyautogui.readthedocs.io/en/latest/ 
 
-Open the .py file. Edit this section: [impath = 'C:/PATHWAYHERE'] so that it displays the pathway of the folder holding the gifs. You can get this pathway by right clicking on the folder and selecting "copy path(s)". It will copy the slashes like this: C:\...\... change the backslashes to forward slashes so it looks like this: C:/.../...
+Open the .py file. Edit this section: [impath = 'C:/PATHWAYHERE'] so that it displays the pathway of the folder holding the gifs. You can get this pathway by right clicking on the folder and selecting "copy path(s)". It will copy the slashes like this: C:\ ...\ ... change the backslashes to forward slashes so it looks like this: C:/.../...
 
 If you are using a compiler, execute the code from there. If you are using a basic text editor, open your terminal. Type "python3 [pathway]/mikey_desktop.py". You will have to do this every time you want to make Mikey appear. 
 
