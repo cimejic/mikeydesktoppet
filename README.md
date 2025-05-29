@@ -5,9 +5,11 @@ Mike sleeps, walks, and goes on his laptop. He cannot interact with your windows
 
 The python code was taken from this tutorial: https://medium.com/analytics-vidhya/create-your-own-desktop-pet-with-python-5b369be18868
 
-Art was made by CIMEJIC and should not be used for anything else. Setup assistance and instructional video by @kubitsss <3
+Art was made by CIMEJIC and should not be used for anything else. Setup assistance and instructional video by @purplecalc <3
 
-INSTRUCTIONS: 
+VIDEO INSTRUCTIONS: https://www.youtube.com/watch?v=mKCXT4sbj3Y
+
+WRITTEN INSTRUCTIONS: 
 
 Download the zip file and extract the files from it OR download all of the gifs and the .py file, then put them in a new folder. (Both options have the same outcome, the second option is just safer because you can see what you download. Don't download random zip files guys)
 
@@ -19,6 +21,6 @@ If you are using a compiler, execute the code from there. If you are using a bas
 
 Mikey should appear on your screen! 
 
-If he does not appear, he may be off screen. Try changing this section of the .py file: [x = 100] & [y = 0] The X value changes his horizontal position, and the Y value will change the vertical position. 
+If he does not appear, he may be off screen. Try changing this section of the .py file: [x = 100] & [y = 0] The X value changes his horizontal position, and his Y value will change the vertical position. 
 
 Close the terminal to remove Mikey from your screen. 
