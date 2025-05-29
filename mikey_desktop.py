@@ -85,7 +85,7 @@ def update(cycle,check,event_number,x):
   frame = walkingright[cycle]
   cycle , event_number = gif_work(cycle,walkingright,event_number,1,9)
   x -= -3
- window.geometry('150x150+'+str(x)+'x'+str(y)) #change x and y depending on screen size
+ window.geometry('150x150+'+str(x)+'+'+str(y)) #change x and y depending on screen size
  label.configure(image=frame)
  window.after(1,event,cycle,check,event_number,x)
 window = tk.Tk()
