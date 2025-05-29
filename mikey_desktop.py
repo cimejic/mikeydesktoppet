@@ -13,7 +13,8 @@ if __name__ == '__main__':
 import pyautogui
 import random
 import tkinter as tk
-x = 100
+x = 100 #Mikey's x position
+y = 0 #Mikey's y position
 cycle = 0
 check = 1
 idle_num =[1,2,3,4]
@@ -84,7 +85,7 @@ def update(cycle,check,event_number,x):
   frame = walkingright[cycle]
   cycle , event_number = gif_work(cycle,walkingright,event_number,1,9)
   x -= -3
- window.geometry('150x150+'+str(x)+'+0') #change x and y depending on screen size
+ window.geometry('150x150+'+str(x)+'x'+str(y)) #change x and y depending on screen size
  label.configure(image=frame)
  window.after(1,event,cycle,check,event_number,x)
 window = tk.Tk()
